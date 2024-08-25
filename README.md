@@ -8,18 +8,18 @@ Prerequisites
 
 # Procedure
 
-    Open the Script
+1. * Open the Script *
     Open the file titled: memetic_portfolio.m.
 
-    Select Market
+2. Select Market
     Choose the market by selecting the appropriate name within the code.
 
-    Set Parameters
+3. Set Parameters
     Specify the following parameters based on your requirements:
         k: Number of assets (cardinality constraint).
         s: Number of pre-assigned assets (pre-assignment constraint).
 
-    Run the Code and Extract Results
+4. Run the Code and Extract Results
 
         To save the results into an Excel file, use the following command in the script:
 
@@ -33,11 +33,11 @@ Prerequisites
 
         Click RUN to execute the script.
 
-    The resulting output includes a graph with:
+5. The resulting output includes a graph with:
         Risk on the x-axis.
         Return on the y-axis.
 
-    This graph visualizes the efficient frontier for the selected asset allocation.
+    The resulting graph visualizes the efficient frontier for the selected asset allocation.
 
 # Notes
 
