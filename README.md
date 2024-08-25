@@ -8,36 +8,32 @@ Prerequisites
 
 # Procedure
 
-1. * Open the Script *
-    Open the file titled: memetic_portfolio.m.
+1. Open the Script
+    * Open the file titled: memetic_portfolio.m.
 
-2. Select Market
-    Choose the market by selecting the appropriate name within the code.
+3. Select Market
+    * Choose the market by selecting the appropriate name within the code.
 
-3. Set Parameters
-    Specify the following parameters based on your requirements:
+4. Set Parameters
+    * Specify the following parameters based on your requirements:
         k: Number of assets (cardinality constraint).
         s: Number of pre-assigned assets (pre-assignment constraint).
 
-4. Run the Code and Extract Results
+5. Run the Code and Extract Results
+    * To save the results into an Excel file, use the following command in the script:
 
-        To save the results into an Excel file, use the following command in the script:
+            xlswrite('name.xlsx', [F1(EF)', -F2(EF)'], 'sheet1', 'A2');
 
-        matlab
+      'F1': Represents the risk values.
+      '-F2': Represents the return values (negated for alignment with conventions).
+      'EF': Represents the efficient frontier.
 
-        xlswrite('name.xlsx', [F1(EF)', -F2(EF)'], 'sheet1', 'A2');
+    * Click RUN to execute the script.
 
-            F1: Represents the risk values.
-            -F2: Represents the return values (negated for alignment with conventions).
-            EF: Represents the efficient frontier.
-
-        Click RUN to execute the script.
-
-5. The resulting output includes a graph with:
-        Risk on the x-axis.
-        Return on the y-axis.
-
-    The resulting graph visualizes the efficient frontier for the selected asset allocation.
+6. The resulting output includes a graph with:
+    * Risk on the x-axis.
+    * Return on the y-axis.
+    * The resulting graph visualizes the efficient frontier for the selected asset allocation.
 
 # Notes
 
